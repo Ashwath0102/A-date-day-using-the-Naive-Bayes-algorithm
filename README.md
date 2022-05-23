@@ -4,15 +4,13 @@ For unclear data, the Naive Bayes classification technique is used. Based on the
 • The Naive Bayes classifier posits that the influence of one feature in a class is independent of the effect of other characteristics. A loan applicant, for example, is desirable or undesirable based on his or her income, previous loan and transaction history, age, and geography. Even if these features are interdependent, they are still considered separately. Because this assumption simplifies computing, it is seen as naive. This is known as class conditional independence.
 
 By Naïve Bayes theorem,
-The probability of going for a date,
-P(Date= Yes | Weather=Overcast, Temp=Mild) = P(Weather=Overcast, Temp=Mild | Date = 
-Yes)P(Date =Yes) ..........(1)
-P(Weather=Overcast, Temp=Mild | Date = Yes)= P(Overcast |Yes) P(Mild |Yes) ………..(2)
-Probability of not Going:
-P(Date = No | Weather=Overcast, Temp=Mild) = P(Weather=Overcast, Temp=Mild | Date = 
-No)P(Date =No) ..........(3)
-P(Weather=Overcast, Temp=Mild | Date = No)= P(Weather=Overcast | Date =No)
-P(Temp=Mild | Date =No) ………..(4)
+  a) The probability of going for a date,
+    P(Date= Yes | Weather=Overcast, Temp=Mild) = P(Weather=Overcast, Temp=Mild | Date = Yes)P(Date =Yes) ..........(1)
+    P(Weather=Overcast, Temp=Mild | Date = Yes)= P(Overcast |Yes) P(Mild |Yes) ………..(2)
+  b) Probability of not going,
+    P(Date = No | Weather=Overcast, Temp=Mild) = P(Weather=Overcast, Temp=Mild | Date = No)P(Date =No) ..........(3)
+    P(Weather=Overcast, Temp=Mild | Date = No)= P(Weather=Overcast | Date =No)
+    P(Temp=Mild | Date =No) ………..(4)
 
 • Given an example of weather and going on a date. You must compute the likelihood of going on a date. Based on the weather, we must now determine if the person will go or not.
 
