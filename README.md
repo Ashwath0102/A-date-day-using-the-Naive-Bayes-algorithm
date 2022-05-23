@@ -48,3 +48,4 @@ In the following steps, create a model using the naive bayes classifier:
   e) Make a prediction.
 
 
+![image](https://user-images.githubusercontent.com/59199696/169858024-1b6e8fc5-b590-4455-84a7-65b5098a68b2.png)
